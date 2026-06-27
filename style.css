@@ -86,13 +86,11 @@ body {
 }
 
 .app-title {
-  flex: 1;
-  font-size: 15px;
+  font-size: 13px;
+  color: rgba(200, 215, 255, 0.55);
   font-weight: 400;
-  letter-spacing: -0.75px;
+  letter-spacing: -0.25px;
   text-align: center;
-  color: aliceblue;
-  cursor: pointer;
 }
 
 .menu-btn {
@@ -200,7 +198,8 @@ body {
 
 .home-blocks {
   width: 100%;
-  min-height: 400px;
+  /* min-height: 400px; */
+  height: auto;
   border-radius: 5px;
 }
 
@@ -212,7 +211,8 @@ body {
   padding: 24px 24px 28px;
   border-radius: 0px;
   gap: 20px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: auto;
   background-color: #112138;
 }
 
